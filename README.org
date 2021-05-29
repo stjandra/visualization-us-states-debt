@@ -1,0 +1,36 @@
+#+TITLE: visualization-us-states-debt
+
+* Overview
+
+An R script to scrape and visualize 2017 U.S. states debt ratio, assets, and liabilities.
+If the robots.txt allows, data is pulled from [[https://www.gobankingrates.com/making-money/states-least-amount-debt/][this post]] by Andrew DePietro.
+
+* R Package Dependencies
+
+- robotstxt
+- rvest
+- svglite
+- tidyverse
+
+* Running the R Script
+
+Clone this repo:
+#+begin_src sh
+git clone git@github.com:stjandra/visualization-us-states-debt.git
+#+end_src
+
+Go to the repo:
+#+begin_src sh
+cd visualization-us-states-debt
+#+end_src
+
+Run via command line:
+#+begin_src sh
+Rscript visualize_us_states_debt.R
+#+end_src
+
+** Output
+
+An svg file =us-states-debt.svg=:
+
+[[./us-states-debt.svg]]
