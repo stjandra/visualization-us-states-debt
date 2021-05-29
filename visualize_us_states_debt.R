@@ -115,4 +115,4 @@ p <- ggplot(data = df,
 
 filename = "us-states-debt.svg"
 ggsave(filename, width=11, height=7)
-write(sprintf("created file %s", filename), stdout())
+write(sprintf("Created file %s", filename), stdout())
